@@ -1,0 +1,11 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+resources/MOVIEDB_API_KEY.txt
+.gitsecret/keys/random_seed
