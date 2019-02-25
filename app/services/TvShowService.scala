@@ -9,6 +9,7 @@ class TvShowService @Inject()(wSClient: WSClient)(implicit executionContext: Exe
   def getTvShowFor(url: String): Future[WSResponse] = {
     buildRequest(url)
       .get()
+
   }
 
   private def buildRequest(url: String) = {
